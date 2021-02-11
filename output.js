@@ -28,7 +28,7 @@ $(function() {
                 var required_name = data[type_id].item[item_id].required[i].name;
                 var required_export = data[type_id].item[item_id].required[i].export;
                 var required_id = 'required-' + i;
-                $('#tb-test tbody').append('<tr class="required" id="'+required_id+'"></tr>')
+                $('#equipment-table tbody').append('<tr class="required" id="'+required_id+'"></tr>')
                 $('#'+required_id).append(
                     '<td><a href="https://wikiwiki.jp/kancolle/'+required_name+'" target="_blank">'+required_name+'</td>'
                     +'<td><select id="star"><option value="0">0</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">MAX</option><option value="11">更新</option></td>'
@@ -39,7 +39,7 @@ $(function() {
                     +'<td><a href="https://wikiwiki.jp/kancolle/'+required_export+'" target="_blank">'+required_export+'</td>'
                     +'<td><input name="num" type="number" min="0" max="100" value="0"></input></td>');
             }
-            $('#tb-test tbody').append('<tr><td colspan="7">合計必要数</td><td id="sum"></td></tr>')
+            $('#equipment-table tbody').append('<tr><td colspan="7">合計必要数</td><td id="sum"></td></tr>')
         });
     });
 
