@@ -2,7 +2,7 @@ $(function() {
     var type_id;
     var item_id;
 
-    $.getJSON('equipments_tree.json', function(data) {
+    $.getJSON('data/equipments_tree.json', function(data) {
         for(var i=0; i<data.length; i++) {
             $('#select-type').append('<option value="'+i+'">'+data[i].type+'</option>');
         }
@@ -12,7 +12,7 @@ $(function() {
         $('#select-item').empty();
         $('#select-item').append('<option value="-1">選択してください</option>');
         type_id = $(this).val();
-        $.getJSON('equipments_tree.json', function(data) {
+        $.getJSON('data/equipments_tree.json', function(data) {
             for(var i=0; i<data[type_id].item.length; i++){
                 $('#select-item').append('<option value="'+i+'">'+data[type_id].item[i].name+'</option>');
             }
@@ -22,7 +22,7 @@ $(function() {
     $('#select-item').change(function() {
         item_id = $(this).val();
         $('#equipment-table tbody').empty();
-        $.getJSON('equipments_tree.json', function(data) {
+        $.getJSON('data/equipments_tree.json', function(data) {
             $('#output').text(data[type_id].item[item_id].name);
             for(var i=0; i<data[type_id].item[item_id].required.length; i++){
                 var required_name = data[type_id].item[item_id].required[i].name;
