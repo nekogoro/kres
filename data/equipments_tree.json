@@ -1997,6 +1997,15 @@
                 "name": "F6F-3",
                 "required": [
                     {
+                        "name": "SBD-5",
+                        "amount": [
+                            0,
+                            0,
+                            1
+                        ],
+                        "export": "SB2C-3"
+                    },
+                    {
                         "name": "FM-2",
                         "amount": [
                             0,
@@ -2573,6 +2582,15 @@
                         "export": ""
                     },
                     {
+                        "name": "零式水上偵察機11型乙",
+                        "amount": [
+                            2,
+                            3,
+                            0
+                        ],
+                        "export": ""
+                    },
+                    {
                         "name": "紫雲",
                         "amount": [
                             2,
@@ -2628,6 +2646,15 @@
                     },
                     {
                         "name": "Swordfish Mk.II改(水偵型)",
+                        "amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "export": ""
+                    },
+                    {
+                        "name": "Fairey Seafox改",
                         "amount": [
                             1,
                             0,
@@ -4323,6 +4350,15 @@
                 "name": "Spitfire Mk.I",
                 "required": [
                     {
+                        "name": "Fairey Seafox改",
+                        "amount": [
+                            0,
+                            1,
+                            0
+                        ],
+                        "export": ""
+                    },
+                    {
                         "name": "Spitfire Mk.V",
                         "amount": [
                             1,
@@ -4381,6 +4417,15 @@
                             1
                         ],
                         "export": "Re.2005 改"
+                    },
+                    {
+                        "name": "SBD-5",
+                        "amount": [
+                            0,
+                            0,
+                            1
+                        ],
+                        "export": "SB2C-3"
                     },
                     {
                         "name": "FM-2",
@@ -4720,6 +4765,15 @@
                             3
                         ],
                         "export": "Re.2005 改"
+                    },
+                    {
+                        "name": "SBD-5",
+                        "amount": [
+                            0,
+                            0,
+                            3
+                        ],
+                        "export": "SB2C-3"
                     },
                     {
                         "name": "FM-2",
