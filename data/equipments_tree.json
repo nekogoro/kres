@@ -1369,6 +1369,15 @@
                 "name": "61cm三連装(酸素)魚雷",
                 "required": [
                     {
+                        "name": "61cm三連装(酸素)魚雷",
+                        "amount": [
+                            0,
+                            0,
+                            3
+                        ],
+                        "export": "61cm三連装(酸素)魚雷後期型"
+                    },
+                    {
                         "name": "61cm三連装(酸素)魚雷後期型",
                         "amount": [
                             0,
@@ -1390,15 +1399,6 @@
                             0
                         ],
                         "export": ""
-                    },
-                    {
-                        "name": "61cm三連装(酸素)魚雷",
-                        "amount": [
-                            0,
-                            0,
-                            2
-                        ],
-                        "export": "61cm四連装(酸素)魚雷"
                     },
                     {
                         "name": "61cm四連装魚雷",
@@ -2749,6 +2749,15 @@
                         "export": "Ro.44水上戦闘機"
                     },
                     {
+                        "name": "SOC Seagull",
+                        "amount": [
+                            1,
+                            0,
+                            0
+                        ],
+                        "export": ""
+                    },
+                    {
                         "name": "OS2U",
                         "amount": [
                             1,
@@ -2851,6 +2860,34 @@
                             0
                         ],
                         "export": ""
+                    }
+                ]
+            },
+            {
+                "name": "SOC Seagull",
+                "required": [
+                    {
+                        "name": "SOC Seagull",
+                        "amount": [
+                            0,
+                            1,
+                            0
+                        ],
+                        "export": ""
+                    }
+                ]
+            },
+            {
+                "name": "OS2U",
+                "required": [
+                    {
+                        "name": "SOC Seagull",
+                        "amount": [
+                            0,
+                            0,
+                            1
+                        ],
+                        "export": "SO3C Seamew改"
                     }
                 ]
             },
@@ -4386,6 +4423,15 @@
                 "name": "94式高射装置",
                 "required": [
                     {
+                        "name": "12.7cm連装砲A型改二",
+                        "amount": [
+                            0,
+                            0,
+                            1
+                        ],
+                        "export": "12.7cm連装砲A型改三(戦時改修)＋高射装置"
+                    },
+                    {
                         "name": "10cm連装高角砲",
                         "amount": [
                             0,
@@ -4773,6 +4819,15 @@
                         "export": "Swordfish Mk.II(熟練)"
                     },
                     {
+                        "name": "SOC Seagull",
+                        "amount": [
+                            0,
+                            0,
+                            2
+                        ],
+                        "export": "SO3C Seamew改"
+                    },
+                    {
                         "name": "S9 Osprey",
                         "amount": [
                             0,
@@ -4899,6 +4954,15 @@
             {
                 "name": "新型砲熕兵装資材",
                 "required": [
+                    {
+                        "name": "12.7cm連装砲A型改三(戦時改修)＋高射装置",
+                        "amount": [
+                            0,
+                            0,
+                            1
+                        ],
+                        "export": "試製 長12.7cm連装砲A型改四"
+                    },
                     {
                         "name": "12.7cm連装砲A型改二",
                         "amount": [
@@ -5184,6 +5248,15 @@
                         "export": "天山一二型(友永隊)"
                     },
                     {
+                        "name": "SOC Seagull",
+                        "amount": [
+                            0,
+                            0,
+                            2
+                        ],
+                        "export": "SO3C Seamew改"
+                    },
+                    {
                         "name": "S9 Osprey",
                         "amount": [
                             0,
@@ -5369,6 +5442,15 @@
                 "name": "戦闘詳報",
                 "required": [
                     {
+                        "name": "12.7cm連装砲A型改二",
+                        "amount": [
+                            0,
+                            0,
+                            1
+                        ],
+                        "export": "12.7cm連装砲A型改三(戦時改修)＋高射装置"
+                    },
+                    {
                         "name": "12.7cm連装砲C型改二",
                         "amount": [
                             0,
@@ -5478,6 +5560,15 @@
                         "export": "試製51cm連装砲"
                     },
                     {
+                        "name": "61cm三連装(酸素)魚雷",
+                        "amount": [
+                            0,
+                            0,
+                            2
+                        ],
+                        "export": "61cm三連装(酸素)魚雷後期型"
+                    },
+                    {
                         "name": "甲標的 甲型",
                         "amount": [
                             0,
@@ -5521,6 +5612,20 @@
                             2
                         ],
                         "export": "Do 217 E-5＋Hs293初期型"
+                    }
+                ]
+            },
+            {
+                "name": "勲章",
+                "required": [
+                    {
+                        "name": "61cm三連装(酸素)魚雷",
+                        "amount": [
+                            0,
+                            0,
+                            2
+                        ],
+                        "export": "61cm三連装(酸素)魚雷後期型"
                     }
                 ]
             }
